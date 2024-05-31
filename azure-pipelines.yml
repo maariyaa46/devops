@@ -9,7 +9,7 @@ trigger:
 pool:
   name: 'Default'  # Specify the agent pool name
   demands:
-  - agent.name -equals Mine 
+  - agent.name -equals Agent1 
 
 steps:
 - task: Maven@3
